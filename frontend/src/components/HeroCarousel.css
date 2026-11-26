@@ -295,6 +295,12 @@
   transform: translateY(-2px);
 }
 
+.btn,
+.hero-nav__btn,
+.hero-progress__seg {
+  cursor: pointer;
+}
+
 .hero-progress__seg:focus-visible,
 .hero-nav__btn:focus-visible,
 .btn:focus-visible {
