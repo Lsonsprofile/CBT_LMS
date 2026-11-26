@@ -131,13 +131,12 @@ const HeroCarousel = () => {
                   </svg>
                 </a>
 
-                <a href="#schools" className="btn btn-ghost">
+                <a href="#video" className="btn btn-ghost">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                    <path d="M3 21h18" />
-                    <path d="M5 21V9l7-4 7 4v12" />
-                    <path d="M9 21v-6h6v6" />
+                    <circle cx="12" cy="12" r="10" />
+                    <polygon points="10 8 16 12 10 16 10 8" />
                   </svg>
-                  Partner With Us
+                  Watch Video
                 </a>
               </div>
             </div>
