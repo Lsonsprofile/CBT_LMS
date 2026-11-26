@@ -30,18 +30,18 @@ const Footer = () => {
           <div className="kt-footer__cta-actions">
             <a
               className="kt-footer__button kt-footer__button--primary"
-              href="mailto:hello@kidstechglobal.org?subject=School%20partnership%20enquiry"
+              href="#what-we-do"
             >
-              Partner with us
+              ICT Courses
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
             </a>
             <a
               className="kt-footer__button kt-footer__button--secondary"
-              href="#what-we-do"
+              href="mailto:hello@kidstechglobal.org?subject=Contact%20Kids%20Tech%20Global"
             >
-              Explore the program
+              Contact Us
             </a>
           </div>
         </section>
