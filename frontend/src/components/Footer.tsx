@@ -91,7 +91,6 @@ const Footer = () => {
           <nav className="kt-footer__column" aria-label="Explore Kids Tech Global">
             <h3>Explore</h3>
             <ul>
-              <li><a href="#home">Home</a></li>
               <li><a href="#what-we-do">What We Do</a></li>
               <li>
                 <a href="mailto:hello@kidstechglobal.org">Contact the team</a>
