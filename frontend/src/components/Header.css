@@ -52,17 +52,16 @@
 
 .kt-logo:hover { transform: translateY(-1px); }
 
-.kt-logo__wordmark {
-  color: var(--brand-navy);
-  font-size: 1.8rem;
-  font-weight: 800;
-  letter-spacing: -0.075em;
-  line-height: 1;
+.kt-logo__svg {
+  display: block;
+  width: auto;
+  height: 46px;
+  overflow: visible;
+  transition: filter 0.3s ease;
 }
 
-.kt-logo__wordmark::after {
-  content: '.';
-  color: var(--brand-primary);
+.kt-logo:hover .kt-logo__svg {
+  filter: drop-shadow(0 2px 4px rgba(30, 58, 95, 0.15));
 }
 
 .kt-nav__menu { display: flex; align-items: center; gap: 0.35rem; }
@@ -228,7 +227,6 @@
 
 @media (max-width: 480px) {
   .kt-nav__inner { padding-inline: 1rem; gap: 0.75rem; }
-  .kt-logo__wordmark { font-size: 1.65rem; }
   .kt-nav__actions { gap: 0.5rem; }
   .kt-btn-login { padding: 0.48rem 0.75rem; }
 }
