@@ -96,8 +96,41 @@ const Header = () => {
       ref={navRef}
     >
       <div className="kt-nav__inner">
-        <a href="#home" className="kt-logo" aria-label="Kidstech home">
-          <span className="kt-logo__wordmark">kidstech</span>
+        <a href="#home" className="kt-logo" aria-label="Kids Tech Global home">
+          <svg
+            className="kt-logo__svg"
+            viewBox="0 0 170 56"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Kids Tech Global"
+          >
+            <text
+              x="0"
+              y="27"
+              fontFamily="'Plus Jakarta Sans', sans-serif"
+              fontWeight="800"
+              fontSize="22"
+              letterSpacing="0.5"
+            >
+              <tspan fill="#EF4444">K</tspan>
+              <tspan fill="#FACC15">I</tspan>
+              <tspan fill="#22C55E">D</tspan>
+              <tspan fill="#38BDF8">S</tspan>
+              <tspan fill="#64748B" dx="4">TECH</tspan>
+            </text>
+            <text
+              x="16"
+              y="48"
+              fontFamily="'Plus Jakarta Sans', sans-serif"
+              fontWeight="800"
+              fontSize="21"
+              letterSpacing="1.2"
+              fill="#1E3A5F"
+            >
+              GLOBAL
+            </text>
+          </svg>
         </a>
 
         <nav className="kt-nav__menu" id="primaryNav" aria-label="Primary navigation">
