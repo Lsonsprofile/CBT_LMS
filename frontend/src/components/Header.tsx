@@ -97,7 +97,7 @@ const Header = () => {
     >
       <div className="kt-nav__inner">
         <a href="#home" className="kt-logo" aria-label="Kidstech home">
-          <img src="/images/kidstech-logo.png" alt="Kidstech" />
+          <span className="kt-logo__wordmark">kidstech</span>
         </a>
 
         <nav className="kt-nav__menu" id="primaryNav" aria-label="Primary navigation">
