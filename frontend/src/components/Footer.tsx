@@ -48,7 +48,7 @@ const Footer = () => {
 
         <div className="kt-footer__main">
           <div className="kt-footer__brand">
-            <a className="kt-footer__logo" href="#home" aria-label="Kids Tech Global home">
+            <div className="kt-footer__logo">
               <svg
                 viewBox="0 0 194 56"
                 role="img"
@@ -72,7 +72,7 @@ const Footer = () => {
                   GLOBAL
                 </text>
               </svg>
-            </a>
+            </div>
             <p className="kt-footer__brand-note">
               Technology education for schools, homes and connected learning.
             </p>
